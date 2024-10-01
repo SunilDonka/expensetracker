@@ -1,0 +1,82 @@
+/* AuthPage.css */
+.auth-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6b73ff, #000dff); /* Background gradient */
+  }
+  
+  .auth-page {
+    background: white;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Ensure the width does not exceed 400px */
+    text-align: center;
+  }
+  
+  .auth-page h2 {
+    margin-bottom: 2rem;
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .auth-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-page input {
+    margin-bottom: 1.2rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 100%; /* Ensure the input fields take up full width */
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .auth-page input:focus {
+    border-color: #6b73ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(107, 115, 255, 0.5); /* Subtle focus shadow */
+  }
+  
+  .auth-page .submit-btn {
+    background-color: #6b73ff;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%; /* Make the button full width */
+  }
+  
+  .auth-page .submit-btn:hover {
+    background-color: #000dff;
+  }
+  
+  .auth-page .message {
+    margin-top: 1rem;
+    color: #ff4d4d;
+  }
+  
+  .auth-page .toggle-text {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .auth-page .toggle-btn {
+    color: #6b73ff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .auth-page .toggle-btn:hover {
+    text-decoration: underline;
+  }
+  
